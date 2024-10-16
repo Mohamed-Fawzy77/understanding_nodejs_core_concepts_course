@@ -1,0 +1,14 @@
+systeminfo
+New-Item app.js 
+
+//env vars
+$env:MY_ENV_VAR = "GlobalValue" => set env var for the current session
+[System.Environment]::SetEnvironmentVariable('MY_ENV_VAR', 'GlobalValue', 'User') => persist
+Write-Output $env:MY_ENV_VAR => to display both session-based or persistent 
+
+//local vars (session based)
+$myvar = "x" => set $myvar
+$myvar => to print it
+
+ls *.js
+

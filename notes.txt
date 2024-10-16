@@ -1,0 +1,2 @@
+//shell scripting is used on unix based system
+//we use assembler to convert from assembly to machine code
